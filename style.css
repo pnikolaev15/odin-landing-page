@@ -1,0 +1,174 @@
+/* Navbar */
+.navbar {
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 166px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo {
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    object-fit: cover;
+    margin-left: 12px;
+}
+
+.nav-links {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #f9faf8;
+    display: block;
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #e5e7eb;
+}
+
+/* Page header */
+
+.page-header{
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 36px 166px;
+}
+
+.page-header .textbox {
+    max-width: 640px;
+}
+
+.page-header h1, .page-header p {
+    color: #f9faf8;
+}
+
+.page-header h1 {
+    font-size: 48px;
+}
+
+.page-header p {
+    font-size: 18px;
+}
+
+.page-header button {
+    background-color: #3882f8;
+    border: 0;
+    border-radius: 4px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 6px 26px;
+}
+
+.page-header button:hover {
+    cursor: pointer;
+    background-color: #3882f8ab;
+}
+
+.page-header .logo {
+    margin: 24px 0;
+    border-radius: 6px;
+    max-width: 360px;
+    object-fit: cover;
+}
+
+/* Team section */
+
+.team-container {
+    align-items: center;
+    display: flex;
+    color: #1f2937;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px;
+    padding: 36px;
+}
+
+.workers {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    margin: 24px;
+}
+
+.worker {
+    text-align: center;
+}
+
+.worker img {
+    border-radius: 6px;
+    max-width: 240px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.worker h2, .worker p {
+    color: #1f2937;
+    margin: 6px;
+}
+
+.about-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 48px 24px;
+}
+
+.quote {
+    font-size: 24px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    background-color: #3882f8;
+    border-radius: 6px;
+    display: flex;
+    gap: 12px;
+    color: #e5e7eb;
+    max-width: 1024px;
+    margin: 48px 0;
+    padding: 32px 48px;
+}
+
+.contact button {
+    background-color: inherit;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    color: #e5e7eb;
+    padding: 0 24px;
+}
+
+.page-footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 24px;
+}
